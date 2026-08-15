@@ -1,0 +1,17 @@
+pyproject.toml
+src/cuvoy_contracts/__init__.py
+src/cuvoy_contracts/api.py
+src/cuvoy_contracts/common.py
+src/cuvoy_contracts/constants.py
+src/cuvoy_contracts/enrichment.py
+src/cuvoy_contracts/enums.py
+src/cuvoy_contracts/itinerary.py
+src/cuvoy_contracts/place.py
+src/cuvoy_contracts/preferences.py
+src/cuvoy_contracts/py.typed
+src/cuvoy_contracts.egg-info/PKG-INFO
+src/cuvoy_contracts.egg-info/SOURCES.txt
+src/cuvoy_contracts.egg-info/dependency_links.txt
+src/cuvoy_contracts.egg-info/requires.txt
+src/cuvoy_contracts.egg-info/top_level.txt
+tests/test_models.py
