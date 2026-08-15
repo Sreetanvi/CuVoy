@@ -1,0 +1,22 @@
+# Keeps Render web service warm and Supabase project active (free-tier spin-down / auto-pause).
+# See PROJECT_SPEC.md Section 7.8 — Keep-Alive CRON Workflow.
+name: Keep-Alive Ping
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render health
+        run: curl -fsS "${{ secrets.RENDER_HEALTH_URL }}" || echo "Render ping failed"
+
+      - name: Ping Supabase REST
+        run: |
+          curl -fsS "${{ secrets.SUPABASE_URL }}/rest/v1/" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
+            || echo "Supabase ping failed"
