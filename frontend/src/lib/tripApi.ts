@@ -104,8 +104,8 @@ async function listTripsViaBrowser(): Promise<TripList | null> {
   }
   return TripListSchema.parse({
     trips: data.map((row) => {
-      const tripId = String(row.id || row.trip_id || "").trim();
-      const slug = String(row.slug || tripId).trim();
+    const tripId = String(row.id || "").trim();
+    const slug = String(row.slug || tripId).trim();
       return {
         trip_id: tripId,
         slug,
