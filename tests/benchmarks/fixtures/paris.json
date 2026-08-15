@@ -1,0 +1,20 @@
+{
+  "id": "paris",
+  "name": "Paris",
+  "query": "Paris",
+  "prompt": "3 days in Paris walking between museums and historic sites",
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "timezone": "Europe/Paris",
+  "country_code": "FR",
+  "currency": "EUR",
+  "focus": ["walking", "culture"],
+  "places": [
+    {"id": "par-m1", "name": "Louvre Museum", "lat": 48.8606, "lng": 2.3376, "category": "museum"},
+    {"id": "par-m2", "name": "Musee d'Orsay", "lat": 48.8600, "lng": 2.3266, "category": "museum"},
+    {"id": "par-h1", "name": "Notre-Dame", "lat": 48.8530, "lng": 2.3499, "category": "historic"},
+    {"id": "par-p1", "name": "Jardin du Luxembourg", "lat": 48.8462, "lng": 2.3372, "category": "park"},
+    {"id": "par-v1", "name": "Sacre-Coeur", "lat": 48.8867, "lng": 2.3431, "category": "viewpoint"},
+    {"id": "par-r1", "name": "Le Comptoir", "lat": 48.8506, "lng": 2.3397, "category": "restaurant"}
+  ]
+}

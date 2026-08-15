@@ -1,0 +1,20 @@
+{
+  "id": "interlaken",
+  "name": "Interlaken",
+  "query": "Interlaken",
+  "prompt": "3 days in Interlaken for lakes, viewpoints, and long walks",
+  "lat": 46.6863,
+  "lng": 7.8632,
+  "timezone": "Europe/Zurich",
+  "country_code": "CH",
+  "currency": "CHF",
+  "focus": ["nature", "long_distance"],
+  "places": [
+    {"id": "int-v1", "name": "Harder Kulm", "lat": 46.6984, "lng": 7.8664, "category": "viewpoint"},
+    {"id": "int-v2", "name": "Schynige Platte", "lat": 46.6534, "lng": 7.9108, "category": "viewpoint"},
+    {"id": "int-p1", "name": "Lake Brienz Shore", "lat": 46.6907, "lng": 7.8689, "category": "park"},
+    {"id": "int-h1", "name": "Hoehematte", "lat": 46.6869, "lng": 7.8595, "category": "park"},
+    {"id": "int-m1", "name": "Tourism Museum", "lat": 46.6854, "lng": 7.8588, "category": "museum"},
+    {"id": "int-r1", "name": "Cafe Schuh", "lat": 46.6860, "lng": 7.8599, "category": "restaurant"}
+  ]
+}

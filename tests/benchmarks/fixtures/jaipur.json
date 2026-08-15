@@ -1,0 +1,20 @@
+{
+  "id": "jaipur",
+  "name": "Jaipur",
+  "query": "Jaipur",
+  "prompt": "3 days in Jaipur for forts, palaces, and museums",
+  "lat": 26.9124,
+  "lng": 75.7873,
+  "timezone": "Asia/Kolkata",
+  "country_code": "IN",
+  "currency": "INR",
+  "focus": ["heritage", "forts", "museums"],
+  "places": [
+    {"id": "jai-f1", "name": "Amber Fort", "lat": 26.9855, "lng": 75.8513, "category": "historic"},
+    {"id": "jai-f2", "name": "Jaigarh Fort", "lat": 26.9851, "lng": 75.8456, "category": "historic"},
+    {"id": "jai-p1", "name": "City Palace", "lat": 26.9258, "lng": 75.8236, "category": "historic"},
+    {"id": "jai-m1", "name": "Albert Hall Museum", "lat": 26.9116, "lng": 75.8195, "category": "museum"},
+    {"id": "jai-v1", "name": "Nahargarh Viewpoint", "lat": 26.9373, "lng": 75.8155, "category": "viewpoint"},
+    {"id": "jai-r1", "name": "Laxmi Misthan Bhandar", "lat": 26.9180, "lng": 75.8260, "category": "restaurant"}
+  ]
+}

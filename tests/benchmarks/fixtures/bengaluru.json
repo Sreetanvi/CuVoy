@@ -1,0 +1,21 @@
+{
+  "id": "bengaluru",
+  "name": "Bengaluru",
+  "query": "Bengaluru",
+  "prompt": "3 days in Bengaluru for museums, food, and public transport",
+  "lat": 12.9716,
+  "lng": 77.5946,
+  "timezone": "Asia/Kolkata",
+  "country_code": "IN",
+  "currency": "INR",
+  "focus": ["urban", "traffic", "restaurants", "gtfs"],
+  "places": [
+    {"id": "blr-m1", "name": "Visvesvaraya Museum", "lat": 12.9752, "lng": 77.5913, "category": "museum"},
+    {"id": "blr-m2", "name": "National Gallery", "lat": 12.9745, "lng": 77.5938, "category": "museum"},
+    {"id": "blr-p1", "name": "Cubbon Park", "lat": 12.9763, "lng": 77.5929, "category": "park"},
+    {"id": "blr-r1", "name": "Vidyarthi Bhavan", "lat": 12.9456, "lng": 77.5712, "category": "restaurant"},
+    {"id": "blr-r2", "name": "MTR Lalbagh", "lat": 12.9505, "lng": 77.5848, "category": "restaurant"},
+    {"id": "blr-t1", "name": "Majestic Bus Station", "lat": 12.9775, "lng": 77.5708, "category": "bus_station"},
+    {"id": "blr-v1", "name": "Nandi Hills Viewpoint", "lat": 13.3702, "lng": 77.6835, "category": "viewpoint"}
+  ]
+}

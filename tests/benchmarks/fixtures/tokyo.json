@@ -1,0 +1,20 @@
+{
+  "id": "tokyo",
+  "name": "Tokyo",
+  "query": "Tokyo",
+  "prompt": "3 days in Tokyo using public transport for temples and museums",
+  "lat": 35.6762,
+  "lng": 139.6503,
+  "timezone": "Asia/Tokyo",
+  "country_code": "JP",
+  "currency": "JPY",
+  "focus": ["transit", "dense", "gtfs"],
+  "places": [
+    {"id": "tyo-t1", "name": "Senso-ji", "lat": 35.7148, "lng": 139.7967, "category": "temple"},
+    {"id": "tyo-m1", "name": "Tokyo National Museum", "lat": 35.7188, "lng": 139.7765, "category": "museum"},
+    {"id": "tyo-m2", "name": "teamLab Planets", "lat": 35.6490, "lng": 139.7898, "category": "museum"},
+    {"id": "tyo-p1", "name": "Ueno Park", "lat": 35.7142, "lng": 139.7731, "category": "park"},
+    {"id": "tyo-s1", "name": "Shinjuku Station", "lat": 35.6896, "lng": 139.7006, "category": "station"},
+    {"id": "tyo-r1", "name": "Tsukiji Outer Market", "lat": 35.6654, "lng": 139.7707, "category": "restaurant"}
+  ]
+}
