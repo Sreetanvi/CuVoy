@@ -1,0 +1,43 @@
+# CuVoy FastAPI backend — Render Blueprint (PROJECT_SPEC §19, §7.18)
+# Mumbai is not a Render region; Singapore is the closest available.
+# Secrets are sync:false — set them in the Render dashboard, never in this file.
+
+services:
+  - type: web
+    name: cuvoy-api
+    runtime: python
+    plan: free
+    region: singapore
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.8"
+      - key: MAPBOX_ACCESS_TOKEN
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: UPSTASH_REDIS_REST_URL
+        sync: false
+      - key: UPSTASH_REDIS_REST_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OPENTRIPMAP_API_KEY
+        sync: false
+      - key: GEONAMES_USERNAME
+        sync: false
+      - key: FASTAPI_SECRET_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        value: https://cuvoy.vercel.app
+      - key: SENTRY_DSN
+        sync: false
